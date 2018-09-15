@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Select your favourite Country"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:text="Bangladesh"
+        android:id="@+id/bd"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:text="USA"
+        android:id="@+id/usa"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:text="UK"
+        android:id="@+id/uk"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Select"
+        android:id="@+id/selectButton"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:hint="Result"
+        android:id="@+id/resultId"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
